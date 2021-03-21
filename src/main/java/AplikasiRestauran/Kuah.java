@@ -10,8 +10,11 @@ package AplikasiRestauran;
  * @author names
  */
 
-public class Kuah extends Menu{
-
-public Kuah (String nama_kuah){}
-
+public class Kuah extends Menu {
+    public Kuah(String nama_kuah){
+        setNamaMenu(nama_kuah);
+        setHarga(0);
+        setKategori("Kuah");
+    }
 }
+© 2021 GitHub, Inc.
