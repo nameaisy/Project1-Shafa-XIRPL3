@@ -10,22 +10,29 @@ package AplikasiRestauran;
  * @author names
  */
 public class Menu {
+    private String namaMenu;
+    private double harga;
+    private String kategori;
 
-private String nama_menu;
+    public void setNamaMenu(String nama_menu){
+        this.namaMenu = nama_menu;
+    }
+    public void setHarga(double harga_lol){
+        this.harga = harga_lol;
+    }
+    public void setKategori(String kategorikal){
+        this.kategori = kategorikal;
+    }
 
-private double harga;
+    // Get methods
+    public String getNamaMenu(){
+        return namaMenu;
+    }
+    public double getHarga(){
+        return harga;
+    }
+    public String getKategori(){
 
-private String kategori;
-
-public String getNama_menu() { return "";}
-
-public void setNama_menu (String nama_menu){}
-
-public double getHarga () {return 0; }
-
-void setBarga (double harga){}
-
-public String getKategori() { return "";}
-
-public void setKategori (String kategori){} 
+        return kategori;
+    }
 }
