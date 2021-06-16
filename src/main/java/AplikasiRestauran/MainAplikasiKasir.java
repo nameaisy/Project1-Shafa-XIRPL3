@@ -18,7 +18,7 @@ public class MainAplikasiKasir {
     public DaftarMenu daftarMenu;
 
     public static double PAJAK_PPN = 0.10;
-    public static double BIAYA_SERVICE = 0.5;
+    public static double BIAYA_SERVICE = 0.05;
 
     public static void main(String[] args) {
 
