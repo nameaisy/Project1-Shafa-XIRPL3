@@ -95,6 +95,8 @@ public class MainAplikasiKasir {
 				System.out.print("Tambah Pesanan lagi? [Y/N] : ");
                 pesan_lagi = input.next();
             } while (pesan_lagi.equalsIgnoreCase("Y"));
+			
+			
 
         System.out.println("============ TERIMA KASIH ============");
 
