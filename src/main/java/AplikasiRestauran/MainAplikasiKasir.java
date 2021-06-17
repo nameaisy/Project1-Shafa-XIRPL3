@@ -91,10 +91,8 @@ public class MainAplikasiKasir {
                     pesanan.setKeterangan(keterangan);
                 }
 
-				
-				System.out.print("Tambah Pesanan lagi? [Y/N] : ");
-                pesan_lagi = input.next();
-            } while (pesan_lagi.equalsIgnoreCase("Y"));
+					
+            }
 			
 			
 
