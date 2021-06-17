@@ -39,6 +39,7 @@ public class DaftarMenu {
         getMenuByKategori("Minuman");
     }
     public Menu pilihMenu(){
+		//pilihMenu
         try{
             Scanner input = new Scanner(System.in);
 
@@ -72,7 +73,11 @@ public class DaftarMenu {
                 System.out.println("[Err] Bukan Menu Kuah");
                 return pilihMenu();
             }
-        }catch (InputMismatchException err){
+        }catch(IndexOutOfBoundsException err){
+			
+			System.out.println("[Err] Pesanan Tidak Tersedia");
+			return pilihKuah();
+		}catch (InputMismatchException err){
             System.out.println("[Err] Mohon masukkan nomor kuah");
             return pilihKuah();
         }
