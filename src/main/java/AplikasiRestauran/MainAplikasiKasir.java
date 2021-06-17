@@ -91,8 +91,9 @@ public class MainAplikasiKasir {
                     pesanan.setKeterangan(keterangan);
                 }
 
-					
-            }
+				System.out.println("Lakukan Transaksi Lagi? [Y/N]");
+            transaksi_lagi = input.next();
+        }while (transaksi_lagi.equalsIgnoreCase("Y"));
 			
 			
 
